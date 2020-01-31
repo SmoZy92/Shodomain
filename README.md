@@ -10,7 +10,7 @@
 
 
 ### Introduction
-Shodomain is a python script able to grab, sort and print subdomains from shodan beta website.
+Shodomain is a python script able to grab and print subdomains from shodan API.
 
 ![demo](https://i.imgur.com/TiuvTD3.png)
 
