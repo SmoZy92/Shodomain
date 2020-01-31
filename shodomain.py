@@ -3,7 +3,7 @@ import requests, sys, json
 from bs4 import BeautifulSoup as Soup, Tag
      
 if __name__ == "__main__":
-    if len (sys.argv) != 2 :
+    if len (sys.argv) != 3 :
             print "Shodan Subdomain Finder by SmoZy\n\nUsage: ./shodan.py [API Key] [Domain]"
             sys.exit (1)
 
