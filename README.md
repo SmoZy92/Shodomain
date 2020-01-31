@@ -12,19 +12,19 @@
 ### Introduction
 Shodomain is a python script able to grab, sort and print subdomains from shodan beta website.
 
-![demo](https://i.imgur.com/96SnUU5.png)
+![demo](https://i.imgur.com/TiuvTD3.png)
 
 ### Requirements
 Shodomain only works with `Python 2` and has the following depencies:
 
 - `sys`
 - `requests`
-- `BeautifulSoup`
+- `json`
 
 To install these dependencies, navigate to Shodomain directory and execute `pip install -r requirements.txt`
 
 ### Usage
 Using shodomain is pretty simple
 
-`python shodomain.py example.com`
+`python shodomain.py API-KEY example.com`
 
