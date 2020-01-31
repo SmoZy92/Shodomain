@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 import requests, sys, json
-from bs4 import BeautifulSoup as Soup, Tag
      
 if __name__ == "__main__":
     if len (sys.argv) != 3 :
